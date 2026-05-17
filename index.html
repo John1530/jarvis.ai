@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>JARVIS AI Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="CSS/jarvis.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- ======================================
+         MAIN CONTAINER
+    ======================================= -->
+
+    <div class="container">
+
+
+        <!-- ======================================
+             TITLE
+        ======================================= -->
+
+        <h1 class="title">
+            JARVIS
+        </h1>
+
+
+        <!-- ======================================
+             CLOCK
+        ======================================= -->
+
+        <div
+            id="clock"
+            class="clock"
+        >
+            00:00:00
+        </div>
+
+        <!-- ======================================
+             Status System
+        ======================================= -->
+
+        <div class="status-container">
+
+            <div class="status-dot"></div>
+
+            <div
+                class="status-text"
+                id="statusText"
+            >
+                ONLINE
+        </div>
+
+         <!-- ======================================
+             Waveform
+        ======================================= -->
+
+        <div class="waveform" id="waveform">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+    </div>
+
+        <!-- ======================================
+             AI ORB
+        ======================================= -->
+
+        <div class="orb-container">
+
+            <div class="orb" id="orb"></div>
+
+        </div>
+
+
+        <!-- ======================================
+             RESPONSE BOX
+        ======================================= -->
+
+        <div class="response-box">
+
+            <p id="response">
+                Waiting for your command...
+            </p>
+
+            <div class="typing-dots" id="typingDots">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================
+         SCRIPT
+    ======================================= -->
+
+    <script src="JS/jarvis.js"></script>
+
+</body>
+
+</html>
